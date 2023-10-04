@@ -1,0 +1,113 @@
+div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div > ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 0; 
+}
+
+div > ul > li {
+    margin-left: 20px; 
+}
+
+button {
+    color: rgb(255, 249, 249);
+    background: linear-gradient(0deg, rgb(116, 114, 114) 0%, rgb(221, 224, 223) 100%);
+    border-radius: 15px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button img {
+    vertical-align: middle; 
+    margin-right: 5px;
+    width: 30px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    font-size: 15px;
+    background: linear-gradient(0deg, rgb(112, 112, 112) 0%, rgb(184, 182, 182) 100%);
+}
+h3 {
+    color: #c7c5c5;
+    font-size: 20px;
+    margin-bottom: 15px;
+    opacity: 0;
+    animation: inicia 1s forwards;
+}
+
+@keyframes inicia {
+    from {
+        transform: scale(0.6);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+h1 {
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #00ff00;
+    animation: escreve 2.5s steps(30), blink 1s step-end 2.5s infinite;
+}
+
+
+@keyframes escreve {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #00ff00;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 12px;
+        animation: escreve 2.0s steps(30), blink 1s step-end 2.5s infinite;
+        
+    }
+    @keyframes escreve {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
+    }
+}
