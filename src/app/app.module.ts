@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './componentes/card/card.component';
+import { SobreComponent } from './componentes/sobre/sobre.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { CardComponent } from './componentes/card/card.component';
     MenuComponent,
     HomeComponent,
     CardComponent,
+    SobreComponent,
     
   ],
   imports: [

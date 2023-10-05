@@ -1,0 +1,130 @@
+.container {
+    height: 50px;
+    height: 500px;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.foto {
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%; 
+    overflow: hidden;  
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    float: left; 
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn > button > img {
+    width: 32px;
+    height: 32px;
+}
+button {
+    color: rgb(255, 249, 249);
+    background: linear-gradient(0deg, rgb(116, 114, 114) 0%, rgb(221, 224, 223) 100%);
+    border-radius: 15px;
+    cursor: pointer;
+    width: 150px;
+    border: 0px;
+}
+
+button img {
+    vertical-align: middle; 
+    margin-right: 5px;
+    width: 30px;
+    height: auto;
+}
+.foto {
+    border: 1px solid #000; 
+    box-sizing: border-box; 
+}
+
+
+.foto img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+.texto {
+    float: right;
+    width: 500px;
+    height: auto;
+    border: 0px solid #000;
+    font-size: 22px;
+ 
+}
+.texto > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-foto-texto {
+   
+    margin: auto;
+    border: 0px solid #000;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 458px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .foto {
+        width: 150px;
+        height: 150px;
+        float: none;
+        margin: auto;
+    }
+
+    .texto {    
+        width: 100%;
+        font-size: 17px;
+        
+    }
+
+    .container-foto-texto {
+        width: 100%;
+        
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 1020px) {
+    .foto {
+        width: 180px;
+        height: 180px;
+        margin: auto;
+        float: none;
+    }
+
+    .texto {
+        width: 700px;    
+        float: none;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .container-foto-texto {
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+
