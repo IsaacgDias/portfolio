@@ -1,7 +1,54 @@
 .container {
-    display: flex;
+    height: auto;
+    border: 0px solid #000;
+    margin-top: 50px;
 }
+h1 {
+    text-align: center;
+}
+.icones {
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center; 
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.icone:hover {
+    transform: scale(1.05); /* O tamanho do container aumenta em 5% */
+}
+.icone {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
 img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+span {
+    padding: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .icones {
+        width: 90%;
+        border: 0px;
+    }
 }

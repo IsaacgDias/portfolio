@@ -38,7 +38,7 @@ h3 {
 }
 
 .port:hover {
-    transform: scale(1.05); /* Aumente o tamanho do container em 5% quando passar o mouse */
+    transform: scale(1.05); /* O tamanho do container aumenta em 5% */
 }
 
 .port img {
