@@ -7,6 +7,8 @@ import { MenuComponent } from './componentes/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './componentes/card/card.component';
 import { SobreComponent } from './componentes/sobre/sobre.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { SkillsComponent } from './componentes/skills/skills.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { SobreComponent } from './componentes/sobre/sobre.component';
     HomeComponent,
     CardComponent,
     SobreComponent,
+    PortfolioComponent,
+    SkillsComponent,
     
   ],
   imports: [
