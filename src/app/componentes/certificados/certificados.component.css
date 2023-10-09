@@ -1,0 +1,46 @@
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+.container {
+    border: 0px solid #000;
+    height: auto;
+    
+}
+
+img {
+    border: 1px solid #363636;
+    display: flex;
+    max-width: 500px;
+    height: 300px;
+    cursor: pointer;
+    display:inline-block;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+.certificados {
+    margin: auto;
+    margin-top: 30px;
+    border: 0px solid #000;
+    width: 90%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .certificados {
+      width: 100%;
+      border: 1px solid #000;
+    }
+
+    img {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

@@ -9,6 +9,7 @@ import { CardComponent } from './componentes/card/card.component';
 import { SobreComponent } from './componentes/sobre/sobre.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
+import { CertificadosComponent } from './componentes/certificados/certificados.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { SkillsComponent } from './componentes/skills/skills.component';
     SobreComponent,
     PortfolioComponent,
     SkillsComponent,
+    CertificadosComponent,
     
   ],
   imports: [
