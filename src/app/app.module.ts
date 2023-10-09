@@ -10,6 +10,7 @@ import { SobreComponent } from './componentes/sobre/sobre.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { CertificadosComponent } from './componentes/certificados/certificados.component';
+import { RodapeComponent } from './componentes/rodape/rodape.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { CertificadosComponent } from './componentes/certificados/certificados.c
     PortfolioComponent,
     SkillsComponent,
     CertificadosComponent,
+    RodapeComponent,
     
   ],
   imports: [
