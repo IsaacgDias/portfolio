@@ -27,6 +27,7 @@ img:hover {
 .certificados {
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 20px;
     border: 0px solid #000;
     width: 90%;
     height: auto;
@@ -35,7 +36,7 @@ img:hover {
 @media screen and (max-width: 768px) {
     .certificados {
       width: 100%;
-      border: 1px solid #000;
+      border: 0px solid #000;
     }
 
     img {
